@@ -1,0 +1,67 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	font-family: "Microsoft YaHei" , sans-serif;
+}
+.wrap{
+	background-color: #eff0f4;
+	width: 100%;
+	height: 100%;
+}
+.header{
+	width: 100%;
+	height: 70px;
+	color: #ffffff;
+	background-color: #5fc0cd;
+}
+h1{
+	text-align: center;
+	padding-top: 0.6em;
+}
+.close{
+	float: left;
+	position:absolute;
+	margin-left: 3%;
+	padding-top: 1.1em;
+}
+.register{
+	float: right;
+	margin-right: 3%;
+	margin-top: -1.4em;
+}
+.can1{
+	width: 100%;
+	height: 60px;
+	background-color: #ffffff;
+	margin-top: 1em;
+}
+img{
+	float: left;
+	padding-left: 2em;
+	padding-top: 0.5em;
+}
+.can2{
+	float: left;
+	width: 50%;
+	height: 40px;
+    border: none;
+    border-left: 2px solid #eef2f2;
+    padding-left: 2%;
+    margin: 0.875em 2em;
+}
+.submit{
+	width: 100%;
+	height: 60px;
+	color: #ffffff;
+	font-size: 2em;
+	margin-top: 2em;
+	background-color: #5fc0cd;
+}
+.forget{
+	float: right;
+	color: #5fc0cd;
+	font-size: 1em;
+	margin-top: 0.5em;
+}
