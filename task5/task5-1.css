@@ -1,0 +1,136 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+@media screen and (max-width: 450px){
+	.wrap{font-size: 62.5%;}
+}
+.wrap{
+	width: 100%;
+	min-width:320px ;
+	font-family: Arial, serif;
+}
+img{
+	max-width: 100%;
+}
+.header{
+	text-align: center;
+	width: 100%;
+	height: 4em;
+	background-color: #5fc0cd;
+}
+.header img{
+	position: absolute;
+	left: 1%;
+	margin-top:0.8em; 
+}
+.header p{
+	color: #fff; 
+	font-size: 1.5em;
+	padding-top: 0.8em;
+}
+.nav{
+	position: relative;
+	height: 15em;
+	background: url(images/task5-1_02.jpg);
+	background-size: cover;
+}
+.portrait{
+	width: 6em;
+	height: 6em;
+	top: 30%;
+	left: 2%;
+	position: absolute;
+	border-radius: 50%;
+	background-size: cover;
+	background: url(images/task5-1_04.jpg);
+}
+.inner{
+	width: 50%;
+	height: 5em;
+	padding: 5em 0 0 8.5em;
+}
+.por1{
+	font-size: 1.5em;
+	color: #fff;
+	margin-top: 0.5em;
+}
+.por2{
+	color: #fff; 
+}
+.nav img{
+	vertical-align: middle;
+}
+.cantainer{
+	border-bottom: 1px solid #e1e5e7;
+	height: 3em;
+}
+.cantainer h2{
+	display: block;
+	font-size: 1.5em;
+	margin: 1em 0 0 2%;
+	padding-left: 0.5em;
+	border-left:2px solid #5fc0cd;
+}
+.content{
+	border-bottom: 1px solid #e1e1e1;
+}
+li{
+	list-style: none;
+	height: 3em;
+	border-top:1px solid #e1e1e1;
+	margin-left:3%;
+	padding: 1em 0 0 2%;
+}
+.con1{
+	font-size: 1.5em;
+}
+.con2{
+	color: #999;
+	font-size: 1.5em;
+	padding-right: 0.5em;
+	border-right:1px solid #e1e5e7;
+}
+.con3{
+	font-size: 1.5em;
+	margin-left: 1%;
+}
+.con4{
+	font-size: 1.5em;
+	color: red;
+	font-weight: bold;
+	margin-left: 0.5em;
+}
+.con5{
+	font-size: 1.2em;
+	margin-left: 0.5em;
+	display:inline-block;
+    width:70%;
+    vertical-align: middle;
+}
+.footer{
+	height: 10em;
+	text-align: center;
+}
+.button1{
+	width: 45%;
+	height: 2em;
+	float: left;
+	font-size: 1.5em;
+	color: #5fc0cd;
+	margin: 6em 2% 0 3%;
+	border-radius: 0.5em;
+	padding-top: 1em;
+	border: 1px solid #5fc0cd;
+}
+.button2{
+	float: left;
+	width: 45%;
+	height:2em;
+	color: #fff;
+	font-size: 1.5em;
+	margin: 6em 2% 0 2%;
+	border-radius: 0.5em;
+	padding-top: 1em;
+	background-color: #5fc0cd;
+}
