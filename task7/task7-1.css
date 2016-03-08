@@ -1,0 +1,266 @@
+#banner {
+  position:relative;
+  width:1920px;
+  height:600px;
+  margin:0 auto;
+  overflow:hidden;
+}
+
+#slider {
+  width:300%;
+  height:100%;
+  color:#fff;
+  -webkit-animation:slide1 4s infinite;
+}
+#slider li {
+  float:left;
+  width:1920px;
+  height:100%;
+}
+
+
+/*创建三种动画策略*/
+@-webkit-keyframes slide1 {
+  0% { margin-left:0;}
+  23% { margin-left:0;}
+  33% { margin-left:-1920px;}
+  56% { margin-left:-1920px;}
+  66% { margin-left:-3840px;}
+  90% { margin-left:-3840px;}
+  100% {margin-left:0;}
+}
+
+@-webkit-keyframes slide2 {
+  0% { margin-left:-1920px;}
+  23% { margin-left:-1920px;}
+  33% { margin-left:-3840px;}
+  56% { margin-left:-3840px;}
+  66% { margin-left:0;}
+  90% { margin-left:0;}
+  100% {margin-left:-1920px;}
+}
+
+@-webkit-keyframes slide3 {
+  0% { margin-left:-3840px;}
+  23% { margin-left:-3840px;}
+  33% { margin-left:0;}
+  56% { margin-left:0;}
+  66% { margin-left:-1920px;}
+  90% { margin-left:-1920px;}
+  100% {margin-left:-3840px;}
+}
+
+/*修改动画名称*/
+#l01:checked ~ #banner #slider {
+  -webkit-animation-name:slide1;
+}
+
+#l02:checked ~ #banner #slider {
+  -webkit-animation-name:slide2;
+}
+
+#l03:checked ~ #banner #slider {
+  -webkit-animation-name:slide3;
+}
+
+#opts {
+  position: absolute;
+  top: 700px;
+  left: 900px;
+  width:600px;
+  height:40px;
+  margin:auto;
+  color:#fff;
+}
+
+#opts label {
+  float:left;
+  width:20px;
+  height:20px;
+  margin-right:4px;
+  border-radius: 20px;
+  border: 1px solid #999;
+  cursor:pointer;
+}
+input{
+  display: none;
+}
+/*modular_1*/
+.modular_1{
+	height: 445px;
+	text-align: center;
+}
+.efficient{
+	float: left;
+	width: 230px;
+	margin: 160px 0 0 360px;
+}
+.modular_1 h2{
+	margin: 35px 0; 
+}
+.cn{
+	color: #999;
+	text-align: left;
+	line-height: 25px;
+}
+.standard{
+	float: left;
+	width: 220px;
+	margin: 170px 0 0 105px;
+}
+.people{
+	float: left;
+	width: 220px;
+	margin: 160px 0 0 105px;
+}
+.Statistics{
+	float: right;
+	height: 265px;
+	margin: 160px 380px 0 0;
+	padding: 0 0 0 45px;
+	text-align: left;
+	border-left: 1px dashed #dedede;
+}
+.Statistics span{
+	display: inline-block;
+	color: #26a26f;
+	font-size: 18px;
+	margin-top: 50px;
+}
+.Statistics p{
+	color: #999;
+	padding-top: 20px;
+}
+
+/*modular_2*/
+.modular_2{
+	width: 1265px;
+	height: 450px;
+	margin: 80px 0 0 330px;
+}
+.modular_2 h2{
+	text-align: center;
+	margin-top: 75px;
+}
+.study{
+	display: inline-block;
+	float: left;
+	margin: 55px 0 0 25px;
+}
+.circle{
+	display: inline-block;
+	width: 72px;
+	height: 72px;
+	color: #29b078;
+	text-align: center;
+	padding-top: 30px;
+	background: url(images/homepage_30.jpg);
+}
+.study p{
+	display: inline-block;
+	width: 160px;
+	padding: 0 15px;
+	line-height: 25px;
+	vertical-align: middle;
+	color: #999;
+}
+.study img{
+	vertical-align: middle;
+}
+
+/*modular_3*/
+.modular_3{
+	width: 1220px;
+	height: 570px;
+	margin-left:360px; 
+}
+.modular_3 h2{
+	text-align: center;
+	margin-top: 20px;
+	padding-bottom: 75px;
+}
+.student{
+	float: left;
+	width: 270px;
+	height: 365px;
+	text-align: center;
+	margin-left: 30px;
+	border: 1px solid #eeeded;
+	border-top: transparent;
+	border-radius: 5px;
+	box-shadow: 0 2px 0 #eeeded;
+}
+.student img{
+	margin-top: 10px;
+}
+.student h3{
+	margin: 35px 0;
+}
+.student p{
+	width: 210px;
+	color: #999;
+	margin-left: 30px;
+	text-align: left;
+}
+.modular_3_img{
+	text-align: center;
+	margin: 20px 0 0 585px;
+}
+
+/*modular_4*/
+.modular_4{
+	width: 1200px;
+	height: 430px;
+	margin-left: 360px;
+	text-align: center;
+}
+.modular_4 h2{
+	margin: 65px 0;
+}
+.cooperation{
+	width: 1204px;
+	height: 180px;
+	border: 1px solid #eeeded;
+	border-top: transparent;
+	border-radius: 5px;
+	box-shadow: 0 2px 0 #eeeded;
+}
+.enterprise{
+	float: left;
+	width: 240px;
+	padding-top: 50px;
+}
+.enter{
+	float: left;
+	height: 128px;
+	width: 240px;
+	padding-top: 50px;
+	border: 1px solid #eeeded;
+	box-shadow: 2px 2px 2px #edecec;
+}
+
+/*modular_5*/
+.modular_5{
+	width: 1200px;
+	height: 135px;
+	padding-left: 30px;
+	margin-left: 360px;
+}
+.modular_5 h2{
+	text-align: center;
+	margin:25px;
+}
+.modular_5 li{
+	float: left;
+	color: #999;
+	font-size: 18px;
+	line-height: 20px;
+	padding: 10px 52px 0 0;
+}
+.modular_5 li a{
+	text-decoration: none;
+	color: #999;
+}
+.modular_5 li a:hover{
+	border-bottom: 2px solid #26a26f;
+}
